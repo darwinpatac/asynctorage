@@ -5,7 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { ToastProvider, useToast } from 'react-native-toast-notifications';
 import { NavigationContainer } from '@react-navigation/native';
 import { Picker } from "@react-native-picker/picker";
-import StudentList from './assets/StudentList';
+import StudentList from './StudentList';
 import { v4 as uuidv4 } from 'uuid';
 
 const sHeight = Dimensions.get('window').height;
